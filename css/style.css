@@ -1,0 +1,432 @@
+nav{
+    width: 1440px;
+    height: 96px;
+    display: flex;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo{
+    background: #FFFFFF;
+}
+.mune{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+
+}
+a{
+    color: black;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+
+
+
+}
+a:link{
+    text-decoration: none;
+}
+
+.button{
+    width: 171px;
+    height: 44px;
+    background: #FF6418;
+    color: white;
+    border-radius: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-color: #FFFFFF;
+    
+}
+
+.Accueil{
+    width: 1440px;
+    height: 668px;
+    background: #F3F7FA;
+    padding-top: 64px;
+    padding-right: 104px;
+    padding-left: 104px;
+    gap: 48px;
+
+
+}
+.zone{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #0866C2;
+
+}
+.zone-p{
+    color: #0866C2;
+}
+.promesse h1{
+    color: #102A43;
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 56px;
+
+
+}
+
+.promesse-p{
+    color: #486176;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 17px;
+
+}
+.actions{
+    gap: 12px;
+}
+
+
+.actions .button1{
+    background: #FF6418;
+    width: 218px;
+    height: 54px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.actions .button2{
+    background: #FFFFFF;
+    width: 142px;
+    height: 54px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    
+
+
+
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.img{
+    
+    border-radius: 24px;
+}
+
+.nos{
+    display: flex;
+    gap: 32px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    justify-content: space-around;
+
+}
+.symbole1,
+.symbole2,
+.symbole3{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 14px;
+    color: #102A43;
+
+
+    
+}
+.symbole1 i,
+.symbole2 i,
+.symbole3 i{
+    background: #E7F1FB;
+    border-radius: 999px;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0866C2;
+
+
+}
+.services{
+    width: 1440px;
+    height: 846px;
+    margin-top: 50px;
+    background: #FFFFFF;
+
+    
+
+}
+.presentationdesservices{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+
+
+}
+.presentationdesservices h2{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0866C2;   
+    margin-bottom: 1px;
+}
+.presentationdesservices h3{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    color: #102A43;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+
+}
+.presentationdesservices-p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color:  #486176;
+    margin-top: 5px;
+    
+
+}
+
+.listdesservices{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.carteservice,
+.carteservice1,
+.carteservice2{
+    
+    display: flex;
+    flex-direction: column;
+    gap :20px;
+    border-radius: 20px;
+    border: 1px solid #102A43;
+    
+}
+.img1,
+.img2,
+.img3{
+    
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 20px 20px 0px 0px;
+
+
+}
+
+.Detailsduservice i,
+.Detailsduservice1 i,
+.Detailsduservice2 i{
+    width: 42px;
+    height: 42px;
+    padding: 9px;
+    background: #E7F1FB;
+    color:#0866C2;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+
+
+h4{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 21px;
+    color: #102A43;
+    margin-left: 20px;
+    
+
+}
+.Detailsduservice-p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    color: #486176;
+    margin-left: 20px;
+    
+
+}
+
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 10px;
+    border: 1px solid;
+    width: 400px;
+    height: 30px;
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    /* padding-left: 2px;
+    padding-right: 2px; */
+    background: #0866C2;
+
+
+}
+
+.POURQUOINOUSCHOISIR{
+    width: 1440px;
+    height: 624px;
+    background: #F3F7FA;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    gap: 64px;
+    padding-top: 80px;
+    padding-right: 104px;
+    padding-bottom: 80px;
+    padding-left: 104px;
+
+
+
+}
+.POURQUOINOUSCHOISIR img{
+    width: 520px;
+    height: 464px;
+    border-radius: 24px;
+    
+
+}
+.Notreexigence{
+    width: 648px;
+    height: 145px;
+    gap: 14px;
+
+
+}
+.Notreexigence-p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0866C2;
+    
+}
+h5{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 40px;
+    color: #102A43;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.Notreexigence-p1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #486176;
+
+}
+.groupedavantages,
+.groupedavantages2{
+    display: flex;
+    justify-content: space-between;
+}
+.intitule,
+.intitule1,
+.intitule2,
+.intitule3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.intitule-p,
+.intitule-p1,
+.intitule-p2,
+.intitule-p3{
+    font-family: Inter;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    color: #486176;
+
+}
+
+
+footer{
+    background: #102A43;
+
+}
+
+.informationsdelentreprise{
+    display: flex;
+    align-items:flex-start;
+    
+
+
+}
+
+.logoplombexpress{
+    display: flex;
+    width: 221;
+    height: 40;
+    gap: 10px;
+}
+
+.logoplombexpress-p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+
+
+}
+.marqueetpresentation-p{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    color: #486176;
+
+}
+
+.reseauxsociaux{
+    display: flex;
+    justify-content: flex-start;
+    width: 128px;
+    height: 36px;
+    gap: 10px;
+    
+
+}
+.reseauxsociaux i{
+    color: #E7F1FB;
+    background:#102A43;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    border: 1px solid #486176;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
