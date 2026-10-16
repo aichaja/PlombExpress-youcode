@@ -1,5 +1,4 @@
-nav{
-    width: 1440px;
+nav {
     height: 96px;
     display: flex;
     background: #FFFFFF;
@@ -8,16 +7,18 @@ nav{
 
 }
 
-.logo{
+.logo {
     background: #FFFFFF;
 }
-.mune{
+
+.mune {
     display: flex;
     list-style: none;
     gap: 32px;
 
 }
-a{
+
+a {
     color: black;
     font-family: Inter;
     font-weight: 600;
@@ -26,11 +27,12 @@ a{
 
 
 }
-a:link{
+
+a:link {
     text-decoration: none;
 }
 
-.button{
+.button {
     width: 171px;
     height: 44px;
     background: #FF6418;
@@ -39,31 +41,32 @@ a:link{
     padding-right: 20px;
     padding-left: 20px;
     border-color: #FFFFFF;
-    
+
 }
 
-.Accueil{
-    width: 1440px;
+.Accueil {
+    width: 100%;
     height: 668px;
     background: #F3F7FA;
     padding-top: 64px;
-    padding-right: 104px;
-    padding-left: 104px;
     gap: 48px;
 
 
 }
-.zone{
+
+.zone {
     display: flex;
     align-items: center;
     gap: 8px;
     color: #0866C2;
 
 }
-.zone-p{
+
+.zone-p {
     color: #0866C2;
 }
-.promesse h1{
+
+.promesse h1 {
     color: #102A43;
     font-family: Inter;
     font-weight: 700;
@@ -72,7 +75,7 @@ a:link{
 
 }
 
-.promesse-p{
+.promesse-p {
     color: #486176;
 
     font-family: Inter;
@@ -80,12 +83,13 @@ a:link{
     font-size: 17px;
 
 }
-.actions{
+
+.actions {
     gap: 12px;
 }
 
 
-.actions .button1{
+.actions .button1 {
     background: #FF6418;
     width: 218px;
     height: 54px;
@@ -95,7 +99,8 @@ a:link{
     color: #FFFFFF;
     border-color: #FFFFFF;
 }
-.actions .button2{
+
+.actions .button2 {
     background: #FFFFFF;
     width: 142px;
     height: 54px;
@@ -103,24 +108,26 @@ a:link{
     padding-left: 24px;
     border-radius: 10px;
     border-color: #FFFFFF;
-    
+
 
 
 
 }
 
-.presentation{
+.presentation {
     display: flex;
     justify-content: space-around;
-
+    width: 100%;
+    height: 464px;
 
 }
-.img{
-    
+
+.img {
+
     border-radius: 24px;
 }
 
-.nos{
+.nos {
     display: flex;
     gap: 32px;
     padding-top: 28px;
@@ -128,9 +135,10 @@ a:link{
     justify-content: space-around;
 
 }
+
 .symbole1,
 .symbole2,
-.symbole3{
+.symbole3 {
     display: flex;
     align-items: center;
     gap: 12px;
@@ -140,11 +148,12 @@ a:link{
     color: #102A43;
 
 
-    
+
 }
+
 .symbole1 i,
 .symbole2 i,
-.symbole3 i{
+.symbole3 i {
     background: #E7F1FB;
     border-radius: 999px;
     width: 36px;
@@ -156,72 +165,75 @@ a:link{
 
 
 }
-.services{
-    width: 1440px;
+
+.services {
+    width: 100%;
     height: 846px;
     margin-top: 50px;
     background: #FFFFFF;
 
-    
+
 
 }
-.presentationdesservices{
+
+.presentationdesservices {
     display: flex;
     align-items: center;
     flex-direction: column;
-    
-    
+
+
 
 
 }
-.presentationdesservices h2{
+
+.presentationdesservices h2 {
     font-family: Inter;
     font-weight: 700;
     font-size: 12px;
-    color: #0866C2;   
-    /*margin-bottom: 1px;*/
+    color: #0866C2;
 }
-.presentationdesservices h3{
+
+.presentationdesservices h3 {
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
     color: #102A43;
-    /*margin-top: 0px;
-    margin-bottom: 5px;*/
-    
+
 
 }
-.presentationdesservices-p{
+
+.presentationdesservices-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
-    color:  #486176;
-    /*margin-top: 5px;*/
-    
+    color: #486176;
+
 
 }
 
-.listdesservices{
+.listdesservices {
     display: flex;
     justify-content: center;
     gap: 20px;
 
 }
+
 .carteservice,
 .carteservice1,
-.carteservice2{
-    
+.carteservice2 {
+
     display: flex;
     flex-direction: column;
-    gap :20px;
+    gap: 20px;
     border-radius: 20px;
     border: 1px solid #102A43;
-    
+
 }
+
 .img1,
 .img2,
-.img3{
-    
+.img3 {
+
     justify-content: space-between;
     overflow: hidden;
     border-radius: 20px 20px 0px 0px;
@@ -231,43 +243,44 @@ a:link{
 
 .Detailsduservice i,
 .Detailsduservice1 i,
-.Detailsduservice2 i{
+.Detailsduservice2 i {
     width: 42px;
     height: 42px;
     padding: 9px;
     background: #E7F1FB;
-    color:#0866C2;
+    color: #0866C2;
     border-radius: 10px;
     margin-left: 20px;
 }
 
 
 
-h4{
+h4 {
     font-family: Inter;
     font-weight: 700;
     font-size: 21px;
     color: #102A43;
     margin-left: 20px;
-    
+
 
 }
-.Detailsduservice-p{
+
+.Detailsduservice-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 15px;
     color: #486176;
     margin-left: 20px;
-    
+
 
 }
 
 
-.center{
+.center {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
     border-radius: 10px;
     border: 1px solid;
     width: 239px;
@@ -280,82 +293,87 @@ h4{
 
 
 }
-.center i{
+
+.center i {
     width: 18px;
     height: 18px;
 }
 
-.POURQUOINOUSCHOISIR{
-    width: 1440px;
+.POURQUOINOUSCHOISIR {
+    width: 100%;
     height: 624px;
     background: #F3F7FA;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     align-items: center;
     gap: 64px;
-    padding-top: 80px;
-    padding-right: 104px;
-    padding-bottom: 80px;
-    padding-left: 104px;
 
 
 
 }
-.POURQUOINOUSCHOISIR img{
+
+.POURQUOINOUSCHOISIR img {
     width: 520px;
     height: 464px;
     border-radius: 24px;
-    
+
 
 }
-.Notreexigence{
+
+.Notreexigence {
     width: 648px;
     height: 145px;
     gap: 14px;
 
 
 }
-.Notreexigence-p{
+
+.Notreexigence-p {
     font-family: Inter;
     font-weight: 700;
     font-size: 12px;
     color: #0866C2;
-    
+
 }
-h5{
+
+h5 {
     font-family: Inter;
     font-weight: 700;
     font-size: 40px;
     color: #102A43;
-    
+
     margin-top: 0px;
     margin-bottom: 0px;
 
 }
-.Notreexigence-p1{
+
+.Notreexigence-p1 {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
     color: #486176;
 
 }
+
 .groupedavantages,
-.groupedavantages2{
+.groupedavantages2 {
     display: flex;
     justify-content: space-between;
 }
+
 .intitule,
 .intitule1,
 .intitule2,
-.intitule3{
+.intitule3 {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .intitule-p,
 .intitule-p1,
 .intitule-p2,
-.intitule-p3{
+.intitule-p3 {
     font-family: Inter;
     font-weight: 400;
     font-style: Regular;
@@ -365,33 +383,34 @@ h5{
 }
 
 
-footer{
+footer {
     background: #102A43;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:50px;
+    gap: 50px;
+    width: 100%;
 
-    
+
 
 }
 
-.informationsdelentreprise{
+.informationsdelentreprise {
     display: flex;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: space-between;
-    width: 1232px;
-    gap: 48px;
+    gap: 120px;
     padding-top: 50px;
 
 
 }
-.marqueetpresentation{
+
+.marqueetpresentation {
     gap: 20px;
 }
 
-.logoplombexpress{
+.logoplombexpress {
     display: flex;
     align-items: center;
     width: 221px;
@@ -400,7 +419,7 @@ footer{
 }
 
 
-.logoplombexpress-p{
+.logoplombexpress-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 25px;
@@ -409,7 +428,7 @@ footer{
 
 }
 
-.marqueetpresentation-p{
+.marqueetpresentation-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -417,18 +436,19 @@ footer{
 
 }
 
-.reseauxsociaux{
+.reseauxsociaux {
     display: flex;
     width: 128px;
     height: 36px;
     gap: 10px;
-    
+
 }
+
 .i,
 .ii,
-.iii{
+.iii {
     color: #E7F1FB;
-    background:#102A43;
+    background: #102A43;
     width: 36px;
     height: 36px;
     border-radius: 8px;
@@ -440,21 +460,23 @@ footer{
 
 
 .liensdupieddepage,
-.liensdupieddepage1{
+.liensdupieddepage1 {
     gap: 20px;
-    
+
 
 }
+
 .liensdupieddepage-p,
 .liensdupieddepage1-p,
-.coordonnees-p{
+.coordonnees-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 15px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 
 }
-.coordonnee{
+
+.coordonnee {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -467,25 +489,28 @@ footer{
 
 
 }
+
 .listedesliens,
-.listedesliens1{
+.listedesliens1 {
     list-style: none;
     padding-left: 0px;
 }
+
 .listedesliens a,
-.listedesliens1 a{
-    
+.listedesliens1 a {
+
     color: #C2D0DD;
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
 }
-.moyensdecontact{
+
+.moyensdecontact {
     gap: 20px;
 
 }
 
-.moyensdecontact-p{
+.moyensdecontact-p {
     font-family: Inter;
     font-weight: 400;
     font-size: 11px;
@@ -493,8 +518,8 @@ footer{
 
 }
 
-.informationslegales{
-    
+.informationslegales {
+
     width: 1232px;
     height: 43px;
     display: flex;
@@ -505,29 +530,143 @@ footer{
     font-weight: 400;
     font-size: 12px;
     border-top: 2px solid #486176;
-    
+
 
 }
-.lienslegaux{
+
+.lienslegaux {
     display: flex;
     width: 203px;
     height: 19px;
     gap: 24px;
-   
-    
+
+
 
 }
 
 
 
 
+@media (max-width: 500px) {
+    nav {
+        display: grid;
+        grid-template-columns: 55% 1fr 10%;
+        gap: 16px;
+
+    }
+
+    .logo {
+        grid-column: 1;
+
+    }
+
+    .mune {
+        display: none;
+
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        grid-column: 1 / -1;
+        width: 100%;
 
 
 
+    }
+
+    .Accueil {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        height: 1095px;
+    
+
+    }
+
+    .zone-p {
+        font-size: 12px;
+    }
+
+    .promesse h1 {
+        font-size: 38px;
+    }
+
+    .promesse-p {
+        font-size: 16px;
+
+    }
+
+    .actions {
+        gap: 12px;
+        padding-top: 4px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .actions .button1 {
+        width: 100%;
+    }
+
+    .actions .button2 {
+        width: 100%;
+    }
+
+    .presentation {
+
+        flex-direction: column;
+        width: 100%;
+        gap: 32px;
+
+
+    }
+
+    .img {
+        width: 100%;
+
+    }
+
+    .nos {
+        display: flex;
+        
+        gap: 32px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+        justify-content: space-around;
+
+    }
+
+    .symbole1,
+    .symbole2,
+    .symbole3 {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-family: Inter;
+        font-weight: 600;
+        font-size: 14px;
+        color: #102A43;
 
 
 
+    }
+
+    .symbole1 i,
+    .symbole2 i,
+    .symbole3 i {
+        background: #E7F1FB;
+        border-radius: 999px;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #0866C2;
 
 
-
-
+    }
+}
