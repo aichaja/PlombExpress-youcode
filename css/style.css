@@ -302,7 +302,7 @@ h4 {
 
 .POURQUOINOUSCHOISIR {
     width: 100%;
-    height: 624px;
+    /* height: 624px;*/
     background: #F3F7FA;
     display: flex;
     justify-content: center;
@@ -382,7 +382,8 @@ h5 {
     color: #486176;
 
 }
-h6{
+
+h6 {
     font-size: 17px;
 }
 
@@ -599,7 +600,7 @@ footer {
 
     .promesse h1 {
         font-size: 38px;
-    }                                  
+    }
 
     .promesse-p {
         font-size: 16px;
@@ -700,28 +701,25 @@ footer {
         height: 54px;
 
     }
-    /*
+
     .POURQUOINOUSCHOISIR {
         width: 100%;
-        height: 1039px;
+        height: 1700px;
         display: flex;
         flex-direction: column;
 
-        
+
 
     }
 
-    .POURQUOINOUSCHOISIR .img{
+    .POURQUOINOUSCHOISIR .img {
         width: 100%;
-        height: 280px;
 
     }
-    .Nosatouts{
-        
-    
-    }
-    .list-des-avantages{
-        
+
+    .list-des-avantages {
+        display: flex;
+        flex-direction: column;
 
     }
 
@@ -729,57 +727,174 @@ footer {
         width: 100%;
 
 
-    }*/
-
-    /*.Notreexigence-p {
-        font-family: Inter;
-        font-weight: 700;
-        font-size: 12px;
-        color: #0866C2;
-
     }
 
     h5 {
-        font-family: Inter;
-        font-weight: 700;
-        font-size: 40px;
-        color: #102A43;
-
-        margin-top: 0px;
-        margin-bottom: 0px;
-
-    }
-
-    .Notreexigence-p1 {
-        font-family: Inter;
-        font-weight: 400;
-        font-size: 16px;
-        color: #486176;
+        font-size: 32px;
 
     }
 
     .groupedavantages,
     .groupedavantages2 {
-        
-        
+        display: flex;
+        flex-direction: column;
+
     }
 
-    .intitule,
-    .intitule1,
-    .intitule2,
-    .intitule3 {
+    /*footer {
         
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+
+
+
     }
 
-    .intitule-p,
-    .intitule-p1,
-    .intitule-p2,
-    .intitule-p3 {
+    .informationsdelentreprise {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .marqueetpresentation {
+        gap: 20px;
+    }
+
+    .logoplombexpress {
+        display: flex;
+        align-items: center;
+        width: 221px;
+        height: 40px;
+        gap: 10px;
+    }
+
+
+    .logoplombexpress-p {
         font-family: Inter;
         font-weight: 400;
-        font-style: Regular;
+        font-size: 25px;
+        color: #FFFFFF;
+
+
+    }
+
+    .marqueetpresentation-p {
+        font-family: Inter;
+        font-weight: 400;
         font-size: 14px;
-        color: #486176;
+        color: #C2D0DD;
+
+    }
+
+    .reseauxsociaux {
+        display: flex;
+        width: 128px;
+        height: 36px;
+        gap: 10px;
+
+    }
+
+    .i,
+    .ii,
+    .iii {
+        color: #E7F1FB;
+        background: #102A43;
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+        border: 1px solid #C2D0DD;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .liensdupieddepage,
+    .liensdupieddepage1 {
+        gap: 20px;
+
+
+    }
+
+    .liensdupieddepage-p,
+    .liensdupieddepage1-p,
+    .coordonnees-p {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+
+    }
+
+    .coordonnee {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #C2D0DD;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 13px;
+
+
+
+
+    }
+
+    .listedesliens,
+    .listedesliens1 {
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .listedesliens a,
+    .listedesliens1 a {
+
+        color: #C2D0DD;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .moyensdecontact {
+        gap: 20px;
+
+    }
+
+    .moyensdecontact-p {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 11px;
+        color: #C2D0DD;
+
+    }
+
+    .informationslegales {
+
+        width: 1232px;
+        height: 43px;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 24px;
+        color: #C2D0DD;
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 12px;
+        border-top: 2px solid #486176;
+
+
+    }
+
+    .lienslegaux {
+        display: flex;
+        width: 203px;
+        height: 19px;
+        gap: 24px;
+
+
 
     }*/
 
